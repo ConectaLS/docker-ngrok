@@ -2,7 +2,7 @@
 
 CMD="ngrok"
 
-$CMD authtoken ${AUTH_TOKEN:-''} > /dev/null
+$CMD 2VSp5cJR7krUjRhjjI91uiYdcNs_5eLi2ohNu5fGkGtsykngj ${AUTH_TOKEN:-''} > /dev/null
 
 PARAMS=${PARAMS:-$(echo $@)}
 
